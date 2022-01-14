@@ -65,7 +65,8 @@ class ViewController: UIViewController{
         colactionCustomView.layer.masksToBounds = true
         tableView.layer.cornerRadius = 20
         tableView.layer.masksToBounds = true
-        addingButton.layer.cornerRadius = 18
+        addingButton.frame = CGRect(x: 335, y: 20, width: 30, height: 30)
+        addingButton.layer.cornerRadius = 15
         addingButton.layer.masksToBounds = true
         
         self.tableView.layer.shadowColor = UIColor.lightGray.cgColor

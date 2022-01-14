@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		4B1B2347C1CF7381F05DB906 /* Pods_FireBase_DataBase_Storege.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611CAFFBBE05CDB69D46A03E /* Pods_FireBase_DataBase_Storege.framework */; };
 		911658C22753AE950026A022 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 911658C12753AE950026A022 /* GoogleService-Info.plist */; };
-		913CB7262755815200D892DD /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913CB7252755815200D892DD /* Parser.swift */; };
 		913CB7282755822400D892DD /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913CB7272755822400D892DD /* Upload.swift */; };
 		913CB72A2755E71500D892DD /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913CB7292755E71500D892DD /* ImageViewController.swift */; };
 		91453E802750F07900CB6A53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91453E7F2750F07900CB6A53 /* AppDelegate.swift */; };
@@ -27,7 +26,6 @@
 		611CAFFBBE05CDB69D46A03E /* Pods_FireBase_DataBase_Storege.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FireBase_DataBase_Storege.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D286A5C3865F4BC4BA41072 /* Pods-FireBase_DataBase_Storege.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireBase_DataBase_Storege.debug.xcconfig"; path = "Target Support Files/Pods-FireBase_DataBase_Storege/Pods-FireBase_DataBase_Storege.debug.xcconfig"; sourceTree = "<group>"; };
 		911658C12753AE950026A022 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		913CB7252755815200D892DD /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
 		913CB7272755822400D892DD /* Upload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Upload.swift; sourceTree = "<group>"; };
 		913CB7292755E71500D892DD /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		91453E7C2750F07900CB6A53 /* FireBase_DataBase_Storege.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireBase_DataBase_Storege.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,7 +106,6 @@
 			isa = PBXGroup;
 			children = (
 				91E5EB062752FAB5005DB53F /* CollectionViewCell.swift */,
-				913CB7252755815200D892DD /* Parser.swift */,
 				91E5EB042752FAA3005DB53F /* CollectionViewController.swift */,
 				913CB7272755822400D892DD /* Upload.swift */,
 			);
@@ -252,7 +249,6 @@
 				913CB7282755822400D892DD /* Upload.swift in Sources */,
 				91E5EB072752FAB5005DB53F /* CollectionViewCell.swift in Sources */,
 				91E5EB052752FAA3005DB53F /* CollectionViewController.swift in Sources */,
-				913CB7262755815200D892DD /* Parser.swift in Sources */,
 				91453E842750F07900CB6A53 /* ViewController.swift in Sources */,
 				91453E802750F07900CB6A53 /* AppDelegate.swift in Sources */,
 				913CB72A2755E71500D892DD /* ImageViewController.swift in Sources */,

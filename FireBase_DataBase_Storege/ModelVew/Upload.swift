@@ -34,6 +34,7 @@ struct Upload{
     func firebaseInit(imageURL: String, postTime: String){
         
         print("click")
+        print(postTime)
         let object: [String : String] = [
             "url": "url"
         ]
@@ -45,7 +46,7 @@ struct Upload{
     func upload(image: UIImage){
         let dateFormatter : DateFormatter = DateFormatter()
         //  dateFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
-        dateFormatter.dateFormat = "yyyy-MMM-dd-HH:mm:ss"
+        dateFormatter.dateFormat = "yyyy-dd-HH:mm:ss"
         let date = Date()
         let dateString = dateFormatter.string(from: date)
         let userTime = userName + "-" + dateString
